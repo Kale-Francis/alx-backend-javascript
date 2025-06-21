@@ -1,16 +1,18 @@
 {
   "name": "0x06-unittests_in_js",
   "version": "1.0.0",
-  "description": "0x06. Unittests in JS Project Overview This project focuses on implementing unit and integration tests in JavaScript using Mocha, Chai, and Sinon. It covers writing test suites, using assertion libraries, spies, stubs, hooks, async testing, and integration testing with a small Node.js server using Express. Learning Objectives At the end of this project, you should be able to explain:",  "main": "index.js",
+  "description": "Unit and integration testing in JavaScript using Mocha, Chai, and Sinon",
+  "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha *.test.js"
+    "test": "mocha *.test.js",
+    "test:single": "mocha"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kale-Francis",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^5.2.0",
-    "mocha": "^11.7.0",
-    "sinon": "^21.0.0"
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0"
   }
 }
